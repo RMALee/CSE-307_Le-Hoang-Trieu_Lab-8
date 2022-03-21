@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 5px;
+}
+
+.block-1 {
+    display: block;
+    margin-right: 10px;
+    border: 1px solid black;
+    padding-left: 15px;
+    height: 100%;
+}
+
+.block-1 #classGroup .item {
+    margin-left: 50px;
+}
+
+.block-2 {
+    border: 1px solid black;
+}
+
+.block-2-1 {
+    margin: 7px;
+    border: 1px solid black;
+}
+
+.label {
+    background-color: rgb(177, 173, 173);
+}
+
+.label p {
+    padding-top: 15px;
+}
+
+#student-list {
+    margin: 7px;
+    padding: 10px;
+    background-color: rgb(177, 173, 173);
+}
+
+.item, .Edit, .Del {
+    cursor: pointer;
+}
